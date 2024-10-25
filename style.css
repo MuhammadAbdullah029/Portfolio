@@ -1,25 +1,20 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+
 
 @font-face {
     font-family: Moranga;
-    src: url(./Asserts/fonts/moranga.ttf);
+    src: url(./Asserts/fonts/moranga.woff2);
 }
 @font-face {
     font-family: Gilroy;
-    src: url(./Asserts/fonts/Gilroy-Bold.otf);
+    src: url(./Asserts/fonts/Gilroy-Bold.woff);
 }
 @font-face {
     font-family: Gilroy;
-    src: url(./Asserts/fonts/Gilroy-Semibold.otf);
+    src: url(./Asserts/fonts/Gilroy-Semibold.woff);
 }
 @font-face {
     font-family: Gilroy;
-    src: url(./Asserts/fonts/Gilroy-Medium.otf);
+    src: url(./Asserts/fonts/Gilroy-Medium.woff);
 }
 
 * {

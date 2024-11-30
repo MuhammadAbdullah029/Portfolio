@@ -787,6 +787,8 @@ nav svg {
     height: 13vmax;
     -webkit-box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.4);
             box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.4);
+            pointer-events: none;
+            user-select: none;
 }
 
 #page4>a {

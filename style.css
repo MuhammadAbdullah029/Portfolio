@@ -775,8 +775,14 @@ nav svg {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+        position: relative;
 }
-
+.layer{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+}
 #work-sample img {
     height: 13vmax;
     -webkit-box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.4);

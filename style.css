@@ -333,6 +333,8 @@ img {
     font-weight: 900;
     border-radius: 50%;
     background: linear-gradient(to right, #FE7D84, #FF3131);
+    -webkit-box-shadow: 0 0 0.5vmax #FC626A;
+                box-shadow: 0 0 0.5vmax #FC626A;
     position: absolute;
     right: 7%;
     overflow: hidden;

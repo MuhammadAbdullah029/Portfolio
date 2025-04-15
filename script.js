@@ -109,8 +109,8 @@ gsap.from("#intro-div h1:nth-child(1)", {
 });
 
 gsap.from(".box h4, .dev-box img, .des-box img", {
-  opacity: 0,
   y: 20,
+  opacity: 0,
   scrollTrigger: {
     trigger: ".box h4, .dev-box img, .des-box img",
     scroller: "#main",

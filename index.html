@@ -12,46 +12,24 @@
       content="web developer portfolio, Muhammad Abdullah, frontend developer, backend developer, HTML, CSS, JavaScript, React.js, Node.js, responsive web design, interactive web applications, game development, online code runner, animation portfolio, blog website, web design"
     />
     <title>Abdullah's Portfolio</title>
-
-    <link
-      rel="shortcut icon"
-      href="/Asserts/favicon_io/favicon.ico"
-      type="image/x-icon"
-    />
-
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-    />
+    <link rel="shortcut icon" href="/Asserts/favicon_io/favicon.ico" type="image/x-icon" />
+    <link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
   </head>
   <body>
     <nav>
       <a href="#" onclick="location.reload()">Muhammad Abdullah</a>
-      <svg
-        onclick="locoScroll.scrollTo('#main')"
-        class="header_back__30UYF"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 62 62"
-      >
+      <svg onclick="locoScroll.scrollTo('#main')" class="header_back__30UYF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62">
         <g fill="#fff" fill-rule="nonzero">
-          <path
-            d="M31 .5C14.155.5.5 14.155.5 31S14.155 61.5 31 61.5 61.5 47.845 61.5 31 47.845.5 31 .5zm0 1c16.292 0 29.5 13.208 29.5 29.5S47.292 60.5 31 60.5 1.5 47.292 1.5 31 14.708 1.5 31 1.5z"
-          ></path>
-          <path
-            d="M38.974 33.704c-1.733-.021-5.35-1.67-15.577-1.712 3.83.877 7.425 2.418 7.318 4.622-.043 1.113-.728 1.926-1.947 1.947-.471 0-.963-.15-1.37-.556-1.37-1.37-1.284-4.922-6.098-6.398l-.407-.107c5.221-1.37 5.2-4.986 6.505-6.462.385-.428.942-.556 1.412-.556 1.156 0 1.883.813 1.905 1.947.021 2.204-3.66 3.787-7.51 4.643 10.377-.064 14.036-1.712 15.748-1.669 1.326 0 2.375.963 2.353 2.14 0 1.24-1.005 2.16-2.332 2.16z"
-          ></path>
+          <path d="M31 .5C14.155.5.5 14.155.5 31S14.155 61.5 31 61.5 61.5 47.845 61.5 31 47.845.5 31 .5zm0 1c16.292 0 29.5 13.208 29.5 29.5S47.292 60.5 31 60.5 1.5 47.292 1.5 31 14.708 1.5 31 1.5z"></path>
+          <path d="M38.974 33.704c-1.733-.021-5.35-1.67-15.577-1.712 3.83.877 7.425 2.418 7.318 4.622-.043 1.113-.728 1.926-1.947 1.947-.471 0-.963-.15-1.37-.556-1.37-1.37-1.284-4.922-6.098-6.398l-.407-.107c5.221-1.37 5.2-4.986 6.505-6.462.385-.428.942-.556 1.412-.556 1.156 0 1.883.813 1.905 1.947.021 2.204-3.66 3.787-7.51 4.643 10.377-.064 14.036-1.712 15.748-1.669 1.326 0 2.375.963 2.353 2.14 0 1.24-1.005 2.16-2.332 2.16z"></path>
         </g>
       </svg>
       <button class="resume-btn">
-        <a style="text-decoration: initial" href="#" target="_blank" download=""
-          >get my resume offline</a
-        >
+        <a href="#" target="_blank" download="">get my resume offline</a>
       </button>
       <button class="resume-btn-prt">
-        <a style="text-decoration: initial" href="#" target="_blank" download=""
-          >Get Resume</a
-        >
+        <a href="#" target="_blank" download="">Get Resume</a>
       </button>
     </nav>
     <main id="main">
@@ -60,145 +38,41 @@
         <div class="overlayer"></div>
         <div class="grid-container">
           <div class="row" id="row1">
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Cyber Truck.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/artboard_2.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Lewis Studio.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/BSB AdobeXD.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_5_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_3_18_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
+            <div class="image-cell"><img src="./Asserts/front/Cyber Truck.jpg" alt="Cyber Truck" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/artboard_2.jpg" alt="Artboard 2" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Lewis Studio.jpg" alt="Lewis Studio" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/BSB AdobeXD.jpg" alt="BSB AdobeXD" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_5_11zone.jpg" alt="Project 5" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_3_18_11zone.jpg" alt="Project 3" loading="lazy" /></div>
           </div>
           <div class="row" id="row2">
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Ecommerce and store_8_11zon.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img src="./Asserts/front/AIr_1_11zon.jpg" alt="placeholder" />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Road Techwear.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Duane Levi Smith.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Sky Rye.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_15_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
+            <div class="image-cell"><img src="./Asserts/front/Ecommerce and store_8_11zon.jpg" alt="Ecommerce and Store" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/AIr_1_11zon.jpg" alt="Air" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Road Techwear.jpg" alt="Road Techwear" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Duane Levi Smith.jpg" alt="Duane Levi Smith" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Sky Rye.jpg" alt="Sky Rye" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_15_11zone.jpg" alt="Project 15" loading="lazy" /></div>
           </div>
           <div class="row" id="row3">
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_13_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_10_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Check.tt_2kT1A5D"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_12_11zon.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/p_17_11zone.jpg"
-                alt="placeholder"
-              />
-            </div>
-            <div class="image-cell">
-              <img
-                src="./Asserts/front/Lewis Studio.jpg"
-                alt="placeholder"
-              />
-            </div>
+            <div class="image-cell"><img src="./Asserts/front/p_13_11zone.jpg" alt="Project 13" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_10_11zone.jpg" alt="Project 10" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Check.tt_2kT1A5D" alt="Check" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_12_11zon.jpg" alt="Project 12" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/p_17_11zone.jpg" alt="Project 17" loading="lazy" /></div>
+            <div class="image-cell"><img src="./Asserts/front/Lewis Studio.jpg" alt="Lewis Studio" loading="lazy" /></div>
           </div>
         </div>
         <div class="bottom-text">
           <div class="headings">
-            <h1 class="head-1">
-              Who is <br />
-              Muhammad Abdullah?
-            </h1>
-            <h1 class="head-2">
-              Who is <br />
-              Muhammad Abdullah?
-            </h1>
+            <h1 class="head-1">Who is <br />Muhammad Abdullah?</h1>
+            <h1 class="head-2">Who is <br />Muhammad Abdullah?</h1>
           </div>
           <div class="red-cir">
-            <h1 class="ar1">
-              <img
-                src="https://opos.buzzworthystudio.com/img/svg/arrow.svg"
-                alt="→"
-              />
-            </h1>
-            <h1 class="ar2">
-              <img
-                src="https://opos.buzzworthystudio.com/img/svg/arrow.svg"
-                alt="→"
-              />
-            </h1>
+            <h1 class="ar1"><img src="https://opos.buzzworthystudio.com/img/svg/arrow.svg" alt="Arrow" /></h1>
+            <h1 class="ar2"><img src="https://opos.buzzworthystudio.com/img/svg/arrow.svg" alt="Arrow" /></h1>
           </div>
         </div>
       </div>
-
       <!-- Page 2 -->
       <div data-scroll-section id="page2">
         <div id="name-divs">
@@ -223,35 +97,10 @@
         </div>
         <div id="intro-div">
           <h1>Hi!</h1>
-          <h1>I’m Muhammad Abdullah, a </h1>
-          <h1>Full-Stack Web Developer passionate about</h1>
-          <h1>building dynamic and responsive</h1>
-          <h1>web applications. With 2+ years of</h1>
-          <h1>experience, I specialize in front-end</h1>
-          <h1>technologies and have mastered</h1>
-          <h1>back-end development.</h1>
-          <h1>I thrive on continuous learning,</h1>
-          <h1>embracing challenges, and</h1>
-          <h1>collaborating on innovative projects.</h1>
-          <h1>To date, I've built 30+ professional</h1>
-          <h1>websites, turning ideas into reality.</h1>
-
+          <h1>I’m Muhammad Abdullah, a Full-Stack Web Developer passionate about building dynamic and responsive web applications. With 2+ years of experience, I specialize in front-end technologies and have mastered back-end development. I thrive on continuous learning, embracing challenges, and collaborating on innovative projects. To date, I've built 30+ professional websites, turning ideas into reality.</h1>
           <div id="prof">
-            <a
-              target="_blank"
-              id="hi"
-              href="
-                    https://www.instagram.com/abdullah.gujjar.6029/"
-            >
-              Say Hi
-            </a>
-            <a
-              target="_blank"
-              id="repo"
-              href="https://github.com/MuhammadAbdullah029"
-            >
-              Watch My Repo
-            </a>
+            <a target="_blank" id="hi" href="https://www.instagram.com/abdullah_uors">Say Hi</a>
+            <a target="_blank" id="repo" href="https://github.com/MuhammadAbdullah029">Watch My Repo</a>
           </div>
         </div>
       </div>
@@ -262,55 +111,23 @@
         <div class="box dev-box">
           <h4>development</h4>
           <div class="elem-div">
-            <img
-              src="./Asserts/images/React-icon.svg.webp"
-              alt="React JS"
-              loading="lazy"
-            />
+            <img src="./Asserts/images/React-icon.svg.webp" alt="React JS" loading="lazy" />
             <img src="./Asserts/images/js-min.webp" alt="JS" loading="lazy" />
-            <img
-              src="./Asserts/images/node-min.webp"
-              alt="Node JS"
-              loading="lazy"
-            />
-            <img
-              src="./Asserts/images/mongodb-min.webp"
-              alt="MongoDB"
-              loading="lazy"
-            />
-            <img
-              src="./Asserts/images/MySQL-min.webp"
-              alt="MySQL"
-              loading="lazy"
-            />
-            <img
-              src="./Asserts/images/github-min.webp"
-              alt="Github"
-              loading="lazy"
-            />
-            <img
-              src="./Asserts/images/gsap-min.webp"
-              alt="GSAP"
-              loading="lazy"
-            />
-            <img
-              src="./Asserts/images/html-min.webp"
-              alt="HTML"
-              loading="lazy"
-            />
+            <img src="./Asserts/images/node-min.webp" alt="Node JS" loading="lazy" />
+            <img src="./Asserts/images/mongodb-min.webp" alt="MongoDB" loading="lazy" />
+            <img src="./Asserts/images/MySQL-min.webp" alt="MySQL" loading="lazy" />
+            <img src="./Asserts/images/github-min.webp" alt="Github" loading="lazy" />
+            <img src="./Asserts/images/gsap-min.webp" alt="GSAP" loading="lazy" />
+            <img src="./Asserts/images/html-min.webp" alt="HTML" loading="lazy" />
             <img src="./Asserts/images/css-min.webp" alt="CSS" loading="lazy" />
           </div>
         </div>
         <div class="box des-box">
           <h4>designing</h4>
           <div class="elem-div">
-            <img src="./Asserts/images/illus.png" alt="" loading="lazy" />
-            <img src="./Asserts/images/ps-min.webp" alt="" loading="lazy" />
-            <img
-              src="./Asserts/images/figma-min.webp"
-              alt="figma"
-              loading="lazy"
-            />
+            <img src="./Asserts/images/illus.png" alt="Illustrator" loading="lazy" />
+            <img src="./Asserts/images/ps-min.webp" alt="Photoshop" loading="lazy" />
+            <img src="./Asserts/images/figma-min.webp" alt="Figma" loading="lazy" />
           </div>
         </div>
       </div>
@@ -320,52 +137,17 @@
         <h4>These are few of my recent works</h4>
         <div id="work-sample">
           <div class="layer"></div>
-          <img src="./Asserts/images/work/Lpdesign.gif" alt="" loading="lazy" />
-          <img
-            src="./Asserts/images/work/Duane Levi Smith_7_11zon.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="./Asserts/images/work/Landing page_10_11zon.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <video
-            muted
-            loop
-            autoplay
-            loading="lazy"
-            src="./Asserts/images/work/Professional_Website_Design.mp4"
-          ></video>
-          <img
-            src="./Asserts/images/work/barba (1).gif"
-            alt=""
-            loading="lazy"
-          />
-          <img
-            src="./Asserts/images/work/artboard_2_copy_1201_png by Pasha Kontur ✌_2.jpg"
-            alt=""
-            loading="lazy"
-          />
-          <video
-            muted
-            loop
-            autoplay
-            loading="lazy"
-            src="./Asserts/images/work/Tattoo_Artist_Website_Animation.mp4"
-          ></video>
-          <img
-            src="./Asserts/images/work/Glow Web Ui Design Concept.jfif"
-            alt=""
-            loading="lazy"
-          />
+          <img src="./Asserts/images/work/Lpdesign.gif" alt="LP Design" loading="lazy" />
+          <img src="./Asserts/images/work/Duane Levi Smith_7_11zon.jpg" alt="Duane Levi Smith" loading="lazy" />
+          <img src="./Asserts/images/work/Landing page_10_11zon.jpg" alt="Landing Page" loading="lazy" />
+          <video muted loop autoplay loading="lazy" src="./Asserts/images/work/Professional_Website_Design.mp4"></video>
+          <img src="./Asserts/images/work/barba (1).gif" alt="Barba" loading="lazy" />
+          <img src="./Asserts/images/work/artboard_2_copy_1201_png by Pasha Kontur ✌_2.jpg" alt="Artboard 2 Copy" loading="lazy" />
+          <video muted loop autoplay loading="lazy" src="./Asserts/images/work/Tattoo_Artist_Website_Animation.mp4"></video>
+          <img src="./Asserts/images/work/Glow Web Ui Design Concept.jfif" alt="Glow Web UI Design Concept" loading="lazy" />
         </div>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/muhammadabdullah6029/"
-        >
-          <img src="./Asserts/images/worklink.png" alt="" />
+        <a target="_blank" href="https://www.linkedin.com/in/muhammadabdullah6029/">
+          <img src="./Asserts/images/worklink.png" alt="LinkedIn" />
         </a>
       </div>
       <!-- Page 6 -->
@@ -408,10 +190,10 @@
             <h6>Stranger Things Promotion Page</h6>
             <div id="sliding-div"></div>
           </a>
-          <a target="_blank" href="https://genesis-creative.vercel.app/">
+          <a target="_blank" href="https://muhammadabdullah029.github.io/childless/">
             <h4>(vii)</h4>
-            <h5>Genesis Creative</h5>
-            <h6>Branding and Design Agency</h6>
+            <h5>Childless</h5>
+            <h6>Solving Childless Problem</h6>
             <div id="sliding-div"></div>
           </a>
           <a target="_blank" href="https://recipe-finder-exte.vercel.app/">
@@ -420,10 +202,10 @@
             <h6>Recipe Finder Website</h6>
             <div id="sliding-div"></div>
           </a>
-          <a target="_blank" href="https://snake-game-seven-rouge.vercel.app/">
+          <a target="_blank" href="https://muhammadabdullah029.github.io/toil/">
             <h4>(ix)</h4>
-            <h5>SSnake</h5>
-            <h6>Snake Game</h6>
+            <h5>Toil</h5>
+            <h6>Creative Agency</h6>
             <div id="sliding-div"></div>
           </a>
         </div>
@@ -438,38 +220,19 @@
           </span>
           or
           <span class="instagram">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/abdullah_gujjar.exe/"
-              >Instagram</a
-            >
+            <a target="_blank" href="https://www.instagram.com/abdullah_uors">Instagram</a>
           </span>
           or
           <span class="linkedin">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/muhammadabdullah6029/"
-              >LinkedIn</a
-            ></span
-          >.
+            <a target="_blank" href="https://www.linkedin.com/in/muhammadabdullah6029/">LinkedIn</a>
+          </span>.
         </h1>
         <footer>Created with ❤️ by Me.</footer>
       </section>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
-      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
-      integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

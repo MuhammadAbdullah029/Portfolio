@@ -72,6 +72,22 @@ document.addEventListener("mousemove", (e) => {
   });
 });
 
+// Device Orientation Effect for Page 1 (Mobile)
+window.addEventListener("deviceorientation", (event) => {
+  // gamma: left/right tilt, range [-90,90]
+  const gamma = event.gamma || 0;
+  const maxGamma = 30; // Sensitivity
+  const normalized = Math.max(-maxGamma, Math.min(maxGamma, gamma)) / maxGamma;
+  const maxTranslation = 60;
+
+  ["row1", "row2", "row3"].forEach((row, index) => {
+    const factor = [1.5, 1, 0.5][index];
+    document.getElementById(row).style.transform = `translateX(${
+      normalized * maxTranslation * factor
+    }px)`;
+  });
+});
+
 // Mouse Enter & Leave Effect
 const bottomText = document.querySelector(".bottom-text");
 
